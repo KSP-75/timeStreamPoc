@@ -21,7 +21,7 @@ const writeData = async () => {
             }
         ]
     };
-
+// ADDING DUMMY COMMENT
     try {
         await timestreamWrite.writeRecords(params).promise();
         console.log("Data written successfully.");
